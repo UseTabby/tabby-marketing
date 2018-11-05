@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import MailchimpSubscribe from "react-mailchimp-subscribe"
 import './Form.scss';
 
-// Icon
-import Icon from '../../Assets/icon.svg';
-
 const url = "https://usetabby.us19.list-manage.com/subscribe/post?u=2854621da172531f2d046ccb8&amp;id=f32b97f51c";
 
 class Form extends Component {
