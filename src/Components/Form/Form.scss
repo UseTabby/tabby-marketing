@@ -18,6 +18,10 @@
     letter-spacing: -0.2px;
     line-height: 28px;
     margin: 12px 0 0 0;
+
+    .strike {
+      text-decoration: line-through;
+    }
   }
 
   .formBox {

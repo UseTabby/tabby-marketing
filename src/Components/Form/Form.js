@@ -12,7 +12,7 @@ class Form extends Component {
     return (
       <section className='form'>
         <h2>Get Notified</h2>
-        <p>Tabby is a self-funded solo venture. I work on it when I can but plan to have it ready in 2 months and 5 days.</p>
+        <p>Tabby is a self-funded solo venture. I work on it when I can but plan to have it ready <span className='strike'>tomorrow. the next day.</span> Janunary 1st 2019.</p>
         <div className='formBox'>
           <MailchimpSubscribe url={url}/>
         </div>

@@ -10,8 +10,8 @@ class App extends Component {
       <header>
         <img src={Icon} />
         <h1>Meet Tabby</h1>
-        <p>GitHub issue tracking rethought and redesigned to write long enough copy to break onto three lines.</p>
-        <span>Coming July 19th 2018</span>
+        <p>GitHub issue tracking redesigned to help you stay organized and stay focused on your issues.</p>
+        <span>Coming January 1st 2019</span>
       </header>
     );
   }
