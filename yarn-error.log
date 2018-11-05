@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.10.1/libexec/bin/yarn.js start
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.10.1/libexec/bin/yarn.js deploy
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mongodb/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  SyntaxError: /Users/dthomas/Dropbox (Personal)/Projects/Tabby/Development/tabby-marketing/package.json: Unexpected token } in JSON at position 354
+  SyntaxError: /Users/dthomas/Desktop/app/package.json: Unexpected token } in JSON at position 501
       at JSON.parse (<anonymous>)
       at /usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:1136:59
       at Generator.next (<anonymous>)
@@ -24,10 +24,12 @@ Trace:
 
 npm manifest: 
   {
-    "name": "mark",
+    "name": "app",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://dthms.github.io/",
     "dependencies": {
+      "gh-pages": "^2.0.1",
       "node-sass": "^4.10.0",
       "react": "^16.6.0",
       "react-dom": "^16.6.0",
@@ -38,10 +40,18 @@ npm manifest:
       "build": "react-scripts build",
       "test": "react-scripts test",
       "eject": "react-scripts eject",
+      "predeploy": "yarn run build",
+      "deploy": "gh-pages -b master -d build",
     },
     "eslintConfig": {
       "extends": "react-app"
-    }
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
   }
 
 yarn manifest: 
