@@ -8,7 +8,7 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <span class='footnote'>Made by <a href='https://twitter.com/danthms'>Dan</a></span>
+        <span className='footnote'>Made by <a href='https://twitter.com/danthms'>Dan</a></span>
         <img src={Iconset} />
       </footer>
     );
