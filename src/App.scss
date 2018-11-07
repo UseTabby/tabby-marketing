@@ -1,0 +1,61 @@
+// Colors
+
+$dark: #121619;
+$midtone: #5E6163;
+$light: #97999A;
+
+// Typography
+
+h1, h2, h3, h4, h5, p { margin: 0; }
+
+h1 {
+  font-size: 71px;
+  letter-spacing: -2px;
+  line-height: 88px;
+}
+
+h2 {
+  font-size: 32px;
+  letter-spacing: -0.6px;
+}
+
+.body-one {
+  font-size: 17px;
+  letter-spacing: -0.34px;
+  line-height: 28px;
+}
+
+.body-two {
+  font-size: 16px;
+  letter-spacing: -0.34px;
+  line-height: 28px;
+}
+
+.footnote {
+  font-size: 13px;
+  letter-spacing: -0.1px;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: $midtone;
+
+  &:visited { color: $midtone }
+  &:hover   { color: $dark }
+  &:active  { color: $midtone }
+}
+
+.strikethrough { text-decoration: line-through; }
+
+.regular  { font-weight: 400; }
+.medium   { font-weight: 600; }
+.bold     { font-weight: 700; }
+
+.dark     { color: $dark; }
+.midtone  { color: $midtone; }
+.light    { color: $light; }
+
+// Resets
+
+span { display: inline-block; }

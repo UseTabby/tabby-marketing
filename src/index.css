@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  font-family: SFUIText-Regular, -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #121619;
+}

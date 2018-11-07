@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>App Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="95.6427984%" id="linearGradient-2">
+            <stop stop-color="#0050FF" stop-opacity="0.8" offset="0%"></stop>
+            <stop stop-color="#0050FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="🌍-Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-440.000000, -120.000000)">
+            <g id="Group-4" transform="translate(440.000000, 120.000000)">
+                <g id="App-Icon">
+                    <g id="Group-2">
+                        <rect id="Rectangle" fill="#0050FF" x="0" y="0" width="68" height="68" rx="22.578125"></rect>
+                        <g id="Group" transform="translate(10.093750, 13.414062)">
+                            <path d="M23.90625,4.86979167 C26.5625,4.86979167 28.9236111,5.3125 30.9895833,6.19791667 C34.7048611,3.00169663 38.5416667,0.93572441 42.5,-7.10542736e-15 C42.65625,2.66056708e-14 45,4.67862205 44.2708333,11.0677083 C44.0625,11.2286929 47.8125,15.907315 47.8125,19.921875 C47.8125,21.3908619 47.8125,22.8598487 47.8125,24.3288356 C47.8125,33.6309894 40.2716144,41.171875 30.9694606,41.171875 L23.90625,41.171875 L16.8430394,41.171875 C7.54088559,41.171875 1.13918529e-15,33.6309894 0,24.3288356 C0,22.8598487 0,21.3908619 0,19.921875 C3.33066907e-15,15.907315 3.75,11.2286929 3.54166667,11.0677083 C2.8125,4.67862205 5.3125,4.97379915e-14 5.3125,4.97379915e-14 C9.27083333,0.93572441 13.1076389,3.00169663 16.8229167,6.19791667 C18.8888889,5.3125 21.25,4.86979167 23.90625,4.86979167 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                            <path d="M16.6015625,15.9375 L31.2109375,15.9375 C37.6902156,15.9375 42.9427083,21.1899927 42.9427083,27.6692708 L42.9427083,29.4401042 C42.9427083,35.9193823 37.6902156,41.171875 31.2109375,41.171875 L16.6015625,41.171875 C10.1222844,41.171875 4.86979167,35.9193823 4.86979167,29.4401042 L4.86979167,27.6692708 C4.86979167,21.1899927 10.1222844,15.9375 16.6015625,15.9375 Z" id="Rectangle" fill="url(#linearGradient-2)"></path>
+                            <polyline id="Path" stroke="#FFFFFF" stroke-width="2.65625" stroke-linecap="round" stroke-linejoin="round" points="17.265625 30.025463 20.8653518 33.6458333 30.546875 23.90625"></polyline>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
