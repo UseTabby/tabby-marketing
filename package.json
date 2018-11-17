@@ -6,6 +6,7 @@
     "node-sass": "^4.10.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-ga": "^2.5.3",
     "react-mailchimp-subscribe": "^2.0.2",
     "react-markdown": "^4.0.3",
     "react-router-dom": "^4.3.1",
