@@ -1,0 +1,23 @@
+@import '../../App.scss';
+
+footer {
+  width: 600px;
+  margin: 0 auto;
+  padding: 40px 0 40px 0;
+  font-size: 14px;
+  color: $dark;
+
+  a {
+    color: $medium;
+    display: inline-block;
+    margin: 0 6px 0 6px;
+
+    &:first-child {
+      margin: 0 6px 0 0;
+    }
+  }
+
+  span {
+    float: right;
+  }
+}
