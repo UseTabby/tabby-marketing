@@ -8,7 +8,7 @@ class Header extends Component {
       <header>
         <a href='/'><img src={Logo} alt='Tabby App Logo' className='logo' /></a>
         <h4 className='page-title'>{this.props.title}</h4>
-        <button>Register Your Interest</button>
+        <a href='#email-form' className='button-primary'>Register Your Interest</a>
       </header>
     )
   }

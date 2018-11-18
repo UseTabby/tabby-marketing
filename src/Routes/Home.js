@@ -27,7 +27,7 @@ class Home extends Component {
           <FeatureBlock img={FocusIllu} title='Clearly Compose' text='Compose thoughtful responses using Tabbys distraction free writing environment' />
           <FeatureBlock img={LoopIllu} title='Your Own Inbox' text='Create your own Inbox based on only the issues that matter to you' />
         </section>
-        <ContentBlock title={['Made by ',<a href='http://www.twitter.com/danthms' target='_blank' rel="noopener noreferrer">@dthms</a>]} text=' – Tabby is a self funded solo project' />
+        <ContentBlock title={['Made by ',<a href='http://www.twitter.com/danthms' target='_blank' rel="noopener noreferrer">@danthms</a>]} text=' – Tabby is a self funded solo project' />
         <Form />
         <Footer />
       </div>

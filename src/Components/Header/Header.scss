@@ -1,6 +1,6 @@
 header {
   width: 100%;
-  padding: 24px 24px 24px 24px;
+  padding: 24px 0 24px 0;
   box-sizing: border-box;
   text-align: center;
 
@@ -11,5 +11,5 @@ header {
   }
 
   img.logo { margin: 4px 0 0 0; float: left; }
-  button { float: right; }
+  .button-primary { float: right; }
 }
