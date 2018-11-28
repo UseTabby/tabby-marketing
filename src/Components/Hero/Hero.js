@@ -14,7 +14,7 @@ class Hero extends Component {
           </p>
           <div className='actions'>
             <img src={Arrow} className='arrow-icon' alt='Arrow Icon' />
-            <a href='http://eepurl.com/dPj3V5' target='_blank' className='display-3'>Register interest</a>
+            <a href='http://eepurl.com/dPj3V5' target='_blank' rel="noopener noreferrer" className='display-3'>Register interest</a>
           </div>
         </div>
         <img src={TabbyPreview} className='preview' alt='Preview of Tabby App' />
