@@ -27,7 +27,7 @@ class Header extends Component {
           <div className='img-clip'>
             <img src={LogoInline} alt='Tabby App Logo' />
           </div>
-        <a href='/register' className='body-small medium'>Register Interest</a>
+        <a href='http://eepurl.com/dPj3V5' target='_blank' className='body-small medium'>Register Interest</a>
       </header>
     )
   }

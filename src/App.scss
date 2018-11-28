@@ -121,7 +121,11 @@ a {
     color: $darkest;
     letter-spacing: -0.3px;
     line-height: 28px;
-    margin: 12px 0 32px 0;
+    margin: 12px 0 0 0;
+
+    img {
+      margin: 24px 0 0 0;
+    }
   }
 
   h4 {
@@ -129,11 +133,21 @@ a {
     color: $dark;
     letter-spacing: -0.2px;
     line-height: 20px;
-    font-weight: 600;
+    font-weight: 500;
+  }
+
+  h5 {
+    font-size: 14px;
+    color: rgba(18,22,25,0.60);
+    letter-spacing: -0.2px;
+    line-height: 20px;
+    font-weight: 400;
+    margin: 12px 0 0 0;
   }
 
   img {
     width: 100%;
+    margin: 0;
   }
 }
 

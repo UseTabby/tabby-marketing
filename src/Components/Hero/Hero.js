@@ -10,13 +10,11 @@ class Hero extends Component {
         <div className='hero-cont'>
           <h1 className='secondary'>Issue management is coming.</h1>
           <p className='body-large'>
-            Tabby is GitHub issue management reimaged. Intended to keep you focused and productive, Tabby is going to soon be coming to a screen near you so watch out for that please thanks.
+            Tabby is a simplified GitHub issue management tool, designed for increased productivity. Tabby allows you to remain focused and to organise your issues. Purrrfect.
           </p>
           <div className='actions'>
             <img src={Arrow} className='arrow-icon' alt='Arrow Icon' />
-            <a href='' className='display-3'>Register interest</a>
-            <img src={Arrow} className='arrow-icon' alt='Arrow Icon' />
-            <a href='' className='display-3'>Learn more</a>
+            <a href='http://eepurl.com/dPj3V5' target='_blank' className='display-3'>Register interest</a>
           </div>
         </div>
         <img src={TabbyPreview} className='preview' alt='Preview of Tabby App' />
