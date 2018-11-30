@@ -24,9 +24,9 @@ class Header extends Component {
       <header id='nav'>
         <a href='/whats-new' className='dark body-small medium'>What's New</a>
         <a href='/about' className='dark body-small medium'>About</a>
-          <div className='img-clip'>
+          <a href='/' className='logo-link'><div className='img-clip'>
             <img src={LogoInline} alt='Tabby App Logo' />
-          </div>
+          </div></a>
         <a href='http://eepurl.com/dPj3V5' target='_blank' rel="noopener noreferrer" className='body-small medium'>Register Interest</a>
       </header>
     )

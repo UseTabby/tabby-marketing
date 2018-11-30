@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'BasierRegular';
+  font-weight: 300;
+  font-style:   normal;
+  font-stretch: normal;
+  src: url('./Assets/Fonts/regular.woff2') format('woff2'),
+       url('./Assets/Fonts/regular.woff') format('woff'),
+       url('./Assets/Fonts/regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BasierMedium';
+  font-weight: 400;
+  font-style:   normal;
+  font-stretch: normal;
+  src: url('./Assets/Fonts/medium.woff2') format('woff2'),
+       url('./Assets/Fonts/medium.woff') format('woff'),
+       url('./Assets/Fonts/medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BasierSemibold';
+  font-weight: 500;
+  font-style:   normal;
+  font-stretch: normal;
+  src: url('./Assets/Fonts/semibold.woff2') format('woff2'),
+       url('./Assets/Fonts/semibold.woff') format('woff'),
+       url('./Assets/Fonts/semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Graphik Web Bold';
+  src: url('./Assets/Fonts/Graphik-Bold-Web.woff2') format('woff2'),
+       url('./Assets/Fonts/Graphik-Bold-Web.woff') format('woff');
+  font-weight:  700;
+  font-style:   normal;
+  font-stretch: normal;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "BasierRegular", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

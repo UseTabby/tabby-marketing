@@ -21,6 +21,11 @@ header {
   a {
     float: left;
     margin: 4px 0 0 0;
+    font-family: 'MyWebFont';
+
+    &.logo-link {
+      float: none;
+    }
   }
 
   a:nth-child(2){ margin: 4px 0 0 28px; }

@@ -4,8 +4,6 @@ import React, { Component } from 'react';
 import Header from '../Components/Header/Header'
 import Footer from '../Components/Footer/Footer'
 
-import '../Assets/Styles/md.scss'
-
 const ReactMarkdown = require('react-markdown')
 
 class About extends Component {
@@ -38,10 +36,11 @@ class About extends Component {
   render() {
     return (
       <div>
-        <Header title='About' />
-          <div id='ReactMarkdown'>
-            <ReactMarkdown source={this.state.aboutData.gistBody} />
-          </div>
+        <Header />
+        <div className='spacefix'></div>
+        <div id='timeline'>
+          <ReactMarkdown source={this.state.aboutData.gistBody} />
+        </div>
         <Footer />
       </div>
     )

@@ -11,7 +11,7 @@ section.hero {
   position: relative;
 
   h1 {
-    font-family: "Graphik";
+    font-family: "Graphik Web Bold";
   }
 
   .hero-cont {
@@ -23,7 +23,7 @@ section.hero {
   }
 
   p {
-    width: 620px;
+    max-width: 620px;
     color: rgba(255, 255, 255, 0.8);
     margin: 20px auto 0 auto;
   }
@@ -38,6 +38,7 @@ section.hero {
       float: left;
       margin: 0 32px 0 12px;
       line-height: 24px;
+      font-weight: 400;
 
       &:last-child {
         margin: 0 0 0 12px;

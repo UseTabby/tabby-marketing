@@ -4,8 +4,6 @@ import React, { Component } from 'react';
 import Header from '../Components/Header/Header'
 import Footer from '../Components/Footer/Footer'
 
-import '../Assets/Styles/md.scss'
-
 const ReactMarkdown = require('react-markdown')
 
 class Privacy extends Component {
