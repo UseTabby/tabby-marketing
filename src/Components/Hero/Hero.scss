@@ -52,11 +52,15 @@ section.hero {
     }
   }
 
-  img.preview {
+  .preview-parallax {
     width: 988px;
     position: absolute;
     bottom: -550px;
     left: 50%;
     transform: translateX(-50%);
+
+    img.preview {
+      width: 100%;
+    }
   }
 }

@@ -22,7 +22,6 @@ class Header extends Component {
   render() {
     return (
       <header id='nav'>
-        <a href='/whats-new' className='dark body-small medium'>What's New</a>
         <a href='/about' className='dark body-small medium'>About</a>
           <a href='/' className='logo-link'><div className='img-clip'>
             <img src={LogoInline} alt='Tabby App Logo' />

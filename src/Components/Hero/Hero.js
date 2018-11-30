@@ -17,7 +17,9 @@ class Hero extends Component {
             <a href='http://eepurl.com/dPj3V5' target='_blank' rel="noopener noreferrer" className='display-3 medium'>Register interest</a>
           </div>
         </div>
-        <img src={TabbyPreview} className='preview' alt='Preview of Tabby App' />
+        <div className='preview-parallax'>
+          <img src={TabbyPreview} className='preview' alt='Preview of Tabby App' />
+        </div>
       </section>
     )
   }
