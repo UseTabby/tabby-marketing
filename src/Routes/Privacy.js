@@ -36,8 +36,9 @@ class Privacy extends Component {
   render() {
     return (
       <div>
-        <Header title='Privacy Policy' />
-          <div id='ReactMarkdown'>
+        <Header />
+          <div className='spacefix'></div>
+          <div id='timeline'>
             <ReactMarkdown source={this.state.aboutData.gistBody} />
           </div>
         <Footer />

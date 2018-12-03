@@ -30,24 +30,18 @@ section.hero {
 
   .actions {
     padding: 40px 0 0 0;
-    width: 168px;
+    width: 208px;
     margin: 0 auto;
 
     a {
       color: rgba(255, 255, 255, 1);
-      float: left;
-      margin: 0 32px 0 12px;
+      margin: 0 32px 0 0;
       line-height: 24px;
       font-weight: 400;
-
-      &:last-child {
-        margin: 0 0 0 12px;
-      }
     }
 
     img.arrow-icon {
       width: 24px;
-      display: inline-block;
       float: left;
     }
   }

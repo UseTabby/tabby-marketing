@@ -113,14 +113,26 @@ a {
     margin: 8px 0 0 0;
 
     img {
-      margin: 24px 0 0 0;
+      margin: 12px 0 0 0;
+    }
+
+    em {
+      color: $medium;
     }
   }
-
 
   h2 {
     font-family: 'Graphik Web Bold';
     margin: 0 0 24px 0;
+  }
+
+  h3 {
+    font-family: 'Graphik Web Bold';
+    margin: 24px 0 0 0;
+
+    &:first-child {
+      margin: 0;
+    }
   }
 
   h4 {
@@ -137,7 +149,7 @@ a {
     color: rgba(18,22,25,0.60);
     letter-spacing: -0.2px;
     line-height: 20px;
-    margin: 12px 0 0 0;
+    margin: 12px 0 60px 0;
     font-weight: 300;
   }
 
